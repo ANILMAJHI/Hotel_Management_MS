@@ -1,0 +1,7 @@
+
+”
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").8«è¦¤ë1b 8bffc7846b8840bbff81eec76320777dh
+”
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").8éÍ¿¤ë1b b07eed70c2e4532c037c3c7ba50d27a6h
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8Ì³¡¤ë1b 0132ec8cee01c5dd244e1a60fe6448a1h

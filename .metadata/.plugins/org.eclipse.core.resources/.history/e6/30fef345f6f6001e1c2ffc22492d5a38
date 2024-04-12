@@ -1,0 +1,49 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+
+  config:
+    import: optional:CONFIGSERVER://localhost:ConfigServer:8085  
+    #import: ${SPRING_CONFIG_IMPORT:optional:CONFIGSERVER://localhost:ConfigServer:8085}  
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices?ssl=true
+    username: root
+    password: system
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show_sql: true 
+    hibernate:
+      ddl-auto: update
+      
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  
+  
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+  
+  
+resilience4j:
+  circuitbreaker:
+    instances:
+      ratingHotelBracker:
+            registerHealthIndicator: true
+            slidingWindowSize: 10
+            minimumNumberOfCalls: 10
+            permittedNumberOfCallsInHalfOpenState: 3
+            waitDurationInOpenState: 5s
+            failureRateThreshold: 50
+            eventConsumerBufferSize: 10
+      

@@ -1,0 +1,5 @@
+package com.anil.api.config;
+
+public class MyConfig {
+
+}

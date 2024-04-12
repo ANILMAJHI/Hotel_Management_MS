@@ -1,0 +1,24 @@
+package com.anil.api.extranal;
+
+import org.springframework.cloud.openfeign.support.SpringMvcContract;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import feign.Contract;
+import feign.Logger;
+
+@Configuration
+public class HotelServiceConfig {
+
+	@Bean
+	public Contract feignContract() {
+		return new SpringMvcContract();
+	}
+
+	@Bean
+	public Logger.Level feignLoggerLevel() {
+		return Logger.Level.FULL;
+	}
+
+	
+}

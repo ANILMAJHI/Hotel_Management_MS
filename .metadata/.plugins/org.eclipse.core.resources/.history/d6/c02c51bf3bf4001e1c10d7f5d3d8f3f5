@@ -1,0 +1,7 @@
+package com.anil.api.service;
+
+public interface HotelService {
+	
+	
+
+}

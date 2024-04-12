@@ -1,0 +1,12 @@
+
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8όλ1b 0132ec8cee01c5dd244e1a60fe6448a1h
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8½ώσ­μ1b 0132ec8cee01c5dd244e1a60fe6448a1h
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8½ώσ­μ1b 0132ec8cee01c5dd244e1a60fe6448a1h
+
+java:S6204Q"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'8½ώσ­μ1b f31c9542f92d797a57d6f9bafca179cdh
+v	java:S125E"<This block of commented-out lines of code should be removed.8½ώσ­μ1b 26e771a82661f8d88b9803a885fb0524h
+h
+java:S1068!"-Remove this unused "HOTEL_URL" private field.8½ώσ­μ1b 89247c4865421efaa07fc1ac26cc1b1fh

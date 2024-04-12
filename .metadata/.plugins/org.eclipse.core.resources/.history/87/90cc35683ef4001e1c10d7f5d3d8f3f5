@@ -1,0 +1,23 @@
+package com.anil.api.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.anil.api.entity.Hotel;
+import com.anil.api.service.HotelService;
+
+@RestController
+public class HotelController {
+
+	@Autowired
+	HotelService hotelService;
+
+	public ResponseEntity<List<Hotel>> findAllHotel() {
+		List<Hotel> hotels = hotelService.findAllHotel();
+		return new ResponseEntity<List<Hotel>>(hotels, HttpStatus.FOUND);
+	}
+}

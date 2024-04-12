@@ -1,0 +1,10 @@
+package com.anil.api.entity;
+
+public class Hotel {
+
+	
+	private String id;
+	private String name;
+	private String locatoin;
+	private String about;
+}

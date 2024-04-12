@@ -1,0 +1,5 @@
+package com.anil.api.repository;
+
+public class HotelRepository {
+
+}

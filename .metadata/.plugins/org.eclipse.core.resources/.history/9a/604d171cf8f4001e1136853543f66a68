@@ -1,0 +1,13 @@
+package com.anil.api.entity;
+
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotNull;
+
+public class Hotel {
+
+	
+	private String id;
+	private String name;
+	private String locatoin;
+	private String about;
+}
