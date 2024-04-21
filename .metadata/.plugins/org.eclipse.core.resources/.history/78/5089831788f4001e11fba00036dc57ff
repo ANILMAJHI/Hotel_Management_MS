@@ -1,5 +1,0 @@
-package com.anil.api.service;
-
-public class RatingServiceImp implements RatingService {
-
-}

@@ -1,8 +1,0 @@
-package com.anil.api.service;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class HotelServiceImpl implements HotelService {
-
-}

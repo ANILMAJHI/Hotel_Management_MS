@@ -1,5 +1,0 @@
-package com.anil.api.extranal;
-
-public interface HotelService {
-
-}
