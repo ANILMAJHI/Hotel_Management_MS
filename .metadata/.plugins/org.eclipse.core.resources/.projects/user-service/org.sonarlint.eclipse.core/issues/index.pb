@@ -27,3 +27,6 @@ e
 5src/main/java/com/anil/api/extranal/HotelService.java,d\d\ddf4da5ee73f84c74fe28f1e3bfed70bdfeb4747
 _
 /src/main/java/com/anil/api/config/MyConfig.java,5\4\54dece2036377957fde1b9d4805d3db8e3d14b8c
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
